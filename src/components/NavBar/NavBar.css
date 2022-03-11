@@ -89,10 +89,6 @@
     font-size: 1.5em;
   }
 
-  .app__navbar-smallscreen_overlay {
-    height: 100vh;
-  }
-
   .app__navbar-smallscreen_menuitems_links a {
     font-size: 1.5em;
   }
