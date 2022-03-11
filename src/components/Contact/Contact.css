@@ -1,0 +1,29 @@
+.app__contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.contact__icon {
+  width: 50px;
+  height: 50px;
+}
+
+.app__contact-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__contact-details a {
+  margin: 0 0.5rem;
+}
+
+.contact__info {
+  font-size: 1.5em;
+  font-family: var(--font-base);
+}

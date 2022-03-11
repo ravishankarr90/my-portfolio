@@ -1,0 +1,12 @@
+.app__aboutme {
+  display: flex;
+  color: var(--font-color-primary);
+  font-family: var(--font-base);
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.p__details {
+  font-size: 20px;
+}

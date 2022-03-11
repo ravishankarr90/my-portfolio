@@ -1,0 +1,31 @@
+.app__skills {
+  display: flex;
+  color: var(--font-color-primary);
+  font-family: var(--font-base);
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.app__skills-details {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.skills__icon {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  .app__skills-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+}
